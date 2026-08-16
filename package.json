@@ -4,10 +4,20 @@
   "private": true,
   "description": "P.R.I.S.M. Zero-Knowledge Document Vault & Agentic Synthesis Platform",
   "scripts": {
+    "mobile": "cd mobile && npx react-native run-android",
     "mobile:start": "cd mobile && npx react-native start",
-    "mobile:android": "cd mobile && npx react-native run-android",
     "server:dev": "cd backend && go run cmd/server/main.go",
     "contracts:compile": "cd contracts && npx hardhat compile",
     "contracts:deploy": "cd contracts && npx hardhat run scripts/deploy.ts --network baseSepolia"
-  }
+  },
+  "keywords": [
+    "zero-knowledge",
+    "e2ee",
+    "agentic-ai",
+    "react-native",
+    "golang",
+    "solidity"
+  ],
+  "author": "",
+  "license": "MIT"
 }
