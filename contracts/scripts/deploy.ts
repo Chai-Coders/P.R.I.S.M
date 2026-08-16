@@ -86,7 +86,7 @@ async function main() {
   }
 
   console.log("\n=================================================");
-  console.log("Deployment Complete!"); 
+  console.log("Deployment Complete!");
   console.log(`MODULE_ADDRESS = "${deployer.accountAddress.toString()}"`);
   console.log(`MODULE_NAME    = "prism_ledger"`);
   console.log("=================================================");
