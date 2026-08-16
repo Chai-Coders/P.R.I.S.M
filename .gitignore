@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment Variables & Secrets
+*.env
+*.env.local
+*.env.*.local
+*.pem
+*.key
+
+# React Native & Android Build Artifacts
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/build/
+mobile/android/local.properties
+mobile/android/gradle/wrapper/gradle-*.zip
+*.apk
+*.aab
+
+# Go Binaries & Output
+backend/bin/
+backend/dist/
+*.exe
+*.test
+main
+
+# Hardhat & Solidity Artifacts
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
