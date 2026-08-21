@@ -1,0 +1,12 @@
+[package]
+name = "PrismLedger"
+version = "1.0.0"
+authors = ["PRISM Team"]
+
+[addresses]
+prism = "_"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
