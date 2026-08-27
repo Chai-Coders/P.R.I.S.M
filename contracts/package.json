@@ -1,0 +1,18 @@
+{
+  "name": "prism-contracts-aptos",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "aptos move compile --named-addresses prism=default",
+    "test": "aptos move test --named-addresses prism=default",
+    "deploy": "tsx scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.35.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.4.5"
+  }
+}

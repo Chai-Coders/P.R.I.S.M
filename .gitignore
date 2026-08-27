@@ -27,8 +27,9 @@ backend/dist/
 
 # Hardhat & Solidity Artifacts
 contracts/artifacts/
-contracts/cache/
+contracts/build/
 contracts/typechain-types/
+
 
 # OS & Editor Files
 .DS_Store
